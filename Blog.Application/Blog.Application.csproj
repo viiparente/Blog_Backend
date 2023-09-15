@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\CreatePost\" />
+    <Folder Include="Commands\CreateUser\" />
+    <Folder Include="Commands\DeletePost\" />
+    <Folder Include="Commands\CreateComment\" />
+    <Folder Include="Commands\UpdatePost\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Queries\GetUser\" />
+    <Folder Include="Queries\GetAllPosts\" />
+    <Folder Include="Queries\GetPostById\" />
+  </ItemGroup>
+
+</Project>
